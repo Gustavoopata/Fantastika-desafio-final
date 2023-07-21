@@ -6,31 +6,62 @@
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color:#252525 ;
-   
+    height: 15vh;
 }
 h1{
     color: white;
 }
 figure{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items: center;
-    width: 20vw;
-    height: 10vh;
-   
+    height: 15vh;
 }
+
 .pata{
     height:5vh;
 }
 nav {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    width: 12vw;
   }
-  
-  nav a {
-    margin-right: 20px;
+
+
+ .banner1{
+    height: 140vh;
+    background-image: url("./assets/cachorro1.jpg");
+    background-size: cover;
+    background-position: top;
+   
   }
+  .banner2{
+    height: 140vh;
+    background-image: url("./assets/cachorro2.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .banner3{
+    height: 140vh;
+    background-image: url("./assets/cachorro3.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+.folder1{
+    display: flex;
+    align-content: center;
+
+    flex-direction: column;
+    
+}
+h2{
+    text-align: center;
+
+}
+
+
 
   
 
