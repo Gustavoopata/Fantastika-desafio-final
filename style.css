@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;  
 }
 header{
     display: flex;
@@ -10,8 +12,8 @@ header{
     background-color:#252525 ;
     height: 15vh;
 }
-h1{
-    color: white;
+.title{
+    color: #FFFFFF;
 }
 figure{
     display: flex;
@@ -19,7 +21,6 @@ figure{
     align-items: center;
     height: 15vh;
 }
-
 .pata{
     height:5vh;
 }
@@ -28,39 +29,93 @@ nav {
     justify-content: space-around;
     width: 12vw;
   }
-
-
- .banner1{
-    height: 140vh;
-    background-image: url("./assets/cachorro1.jpg");
-    background-size: cover;
-    background-position: top;
-   
+/* main */
+.banner1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 115vh;
+  background-image: url("./assets/cachorro1.jpg");
+  background-size: cover;
+  background-position: center;
   }
-  .banner2{
-    height: 140vh;
-    background-image: url("./assets/cachorro2.jpg");
-    background-size: cover;
-    background-position: center;
+.pata1{
+  width: 15vw;
+  height: 22vh;
+  background-image: url("./assets/logo.png");
+  background-size: 100% 100%;
+  margin-bottom: 40vh;
+}
+.text1{
+  width: 32vw;
+  margin-bottom: 5vh;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+/* cachorro 2 */
+.banner2{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 140vh;
+  background-image: url("./assets/cachorro2.jpg");
+  background-size: cover;
+  background-position: center;
+  
   }
+.title2{
+  margin-bottom: 15px;
+  font-size: 49px;
+  font-weight: 700;
+  color: #3A342F;
+  margin-left: 3vw;
+  }
+.text2{
+  white-space: pre-line;
+  width: 35vw;
+  margin-bottom: 5vh;
+  font-size: 27px;
+  font-weight: 400;
+  color: #3A342F;
+  margin-left: 3vw;
+}
+.call{
+  width:15vw ;
+  height: 9vh;
+  font-size:24px ;
+  font-weight: 700;
+  margin-left: 3vw;
+  background-color:#3A342F ;
+  color: #FFFFFF;
+  border-radius: 44px;
+}
+/* cachorro3 */
+
   .banner3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 140vh;
     height: 140vh;
     background-image: url("./assets/cachorro3.jpg");
     background-size: cover;
     background-position: center;
   }
-.folder1{
-    display: flex;
-    align-content: center;
+  .title3{
+    white-space:pre-line;
+    margin-bottom: 15px;
+    font-size: 49px;
+    font-weight: 700;
+    color: #3A342F;
+    margin-right: 20vw;
+    }
 
-    flex-direction: column;
-    
-}
-h2{
-    text-align: center;
-
-}
-
+ 
 
 
   
