@@ -41,8 +41,8 @@ nav {
   background-position: center;
   }
 .pata1{
-  width: 15vw;
-  height: 22vh;
+  width: 9vw;
+  height: 16vh;
   background-image: url("./assets/logo.png");
   background-size: 100% 100%;
   margin-bottom: 40vh;
@@ -95,25 +95,100 @@ nav {
 }
 /* cachorro3 */
 
-  .banner3{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: column;
-    height: 140vh;
-    height: 140vh;
-    background-image: url("./assets/cachorro3.jpg");
-    background-size: cover;
-    background-position: center;
+.banner3{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  flex-direction: column;
+  white-space: pre-line;
+  height: 140vh;
+  height: 140vh;
+  background-image: url("./assets/cachorro3.jpg");
+  background-size: cover;
+  background-position: center;
   }
-  .title3{
-    white-space:pre-line;
-    margin-bottom: 15px;
-    font-size: 49px;
-    font-weight: 700;
-    color: #3A342F;
-    margin-right: 20vw;
-    }
+.title3{
+  margin-left: 15vw;
+  margin-top: 5vw;
+  font-size: 49px;
+  font-weight: 700;
+  color: #FFFFFF;
+
+  }
+.text3{
+  white-space: pre-line;
+  font-size: 27px;
+  font-weight: 400;
+  color:#FFFFFF;
+  margin-left: 31vw;
+} 
+.call2{
+  width:15vw ;
+  height: 9vh;
+  font-size:24px ;
+  font-weight: 700;
+  margin-left: 10vw;
+  margin-top: 3vw;
+  background-color:#FFFFFF ;
+  color:#3A342F ;
+  border-radius: 44px;
+  border: #FFFFFF;
+}
+.apoio{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 15vh;
+}
+.title4{
+  font-size: 20px;
+  color: #FD6A9A;
+}
+.patrocinador{
+  color: #FD6A9A;
+}
+/* footer */
+.baseboard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 55vh;
+  padding-left: 6vw;
+  gap: 13vw;
+  background: #eb4a7b;
+}
+
+.baseboard-logo,
+.baseboard-socials {
+  display: none;
+}
+
+.info-site-title {
+  margin-bottom: 6vh;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.navigation-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.links:hover {
+  opacity: 0.7;
+  transform: scale(105%);
+}
+
+
+
 
  
 
