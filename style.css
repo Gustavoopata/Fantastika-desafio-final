@@ -186,7 +186,7 @@ nav {
   opacity: 0.7;
   transform: scale(105%);
 }
-@media screen and (max-width:500px ){
+@media screen and (max-width:750px ){
 
   .logoh{
     margin-left: 5vw;
@@ -195,7 +195,7 @@ nav {
   .pata{
     height: 10vh;
   }  
-  .youtube,
+  .youtube1,
   .insta {
     display: none;
    }
@@ -221,12 +221,86 @@ nav {
   height: 24vh;
 }
 /* cachorro2 */
+
+ .banner2{
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  background-image: url(./assets/cachorro2cel.png);
+  background-size: 100% 100%;
+ }
+ .container2{
+  margin-left:4vw ;
+  margin-top: 10vw;
+  
  
 
+ }
+.title2{
+  margin-bottom: 7px;
+  font-size: 45px;
+  font-weight: 700;
+  color: #000;
 
+}
+.text2{
+  font-size:20px ;
+  font-weight: 500;
 
-
+ 
+}
+.call{
+  width: 42vw;
+}
+/* cachorro 3 */
+.banner3{
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  background-image:url(./assets/cachorro3cel.png) ;
+  background-size: 100% 100%;
+}
+.container3{
   
+  margin-left: 5vw;
+  
+}
+.title3{
+  margin: 0;
+}
+.text3{
+  margin: 0;
+ 
+}
+.call2{
+    width: 42vw;
+}
+
+.apoio{
+  display: flex;
+  flex-direction: column;
+}
+/* footer */
+.baseboard {
+  flex-direction: column;
+  justify-content: center;
+  padding: 56px 0;
+  text-align: center;
+}
+
+.baseboard-logo,
+.baseboard-socials {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+.info{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+
 }
 
 
