@@ -186,6 +186,52 @@ nav {
   opacity: 0.7;
   transform: scale(105%);
 }
+@media screen and (max-width:500px ){
+
+  .logoh{
+    margin-left: 5vw;
+    height: 25vh;
+  }
+  .pata{
+    height: 10vh;
+  }  
+  .youtube,
+  .insta {
+    display: none;
+   }
+   .whats{
+    width:13vw ;
+    margin-right: 5vw;
+   }
+.title{
+  margin-left: 1vw;
+  font-size: 8vw;
+}
+/* main */
+.banner1{
+  background-image: url(./assets/cachorro1web.png);
+  background-size: 100% 100%;
+}
+.text1{
+  font-size: 25px;
+  text-align: center;
+}
+.pata1{
+  width: 24vw;
+  height: 24vh;
+}
+/* cachorro2 */
+ 
+
+
+
+
+  
+}
+
+
+
+
 
 
 
